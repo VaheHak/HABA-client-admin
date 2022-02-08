@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer__copyright {
+    color: #4285f4;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright p {
+    font-size: 14px;
+    color: white;
+}
+

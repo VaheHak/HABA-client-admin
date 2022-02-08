@@ -1,0 +1,105 @@
+.add__service_button {
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+
+.service_details {
+    min-width: 50%;
+    background: #F7F7F7;
+    border-radius: 6px;
+    padding: 15px 20px;
+    position: relative;
+    margin-right: 25px;
+}
+
+.close_details {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    cursor: pointer;
+}
+
+.service__details_input {
+    width: 100%;
+    background: white;
+}
+
+.av_d_b {
+    display: flex;
+    overflow-x: auto;
+    padding: 12px 0;
+}
+
+.close_avd {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}
+
+.availableDrivers {
+    min-width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 15px;
+    color: gray;
+    position: relative;
+    margin-right: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_create__date {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.choose_service_content {
+    width: 50%;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choose_service_block {
+    width: 45%;
+    height: 200px;
+    background: linear-gradient(rgba(29, 112, 252, 0.9), rgba(29, 112, 252, 0.5));
+    padding: 50px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.choose_service_block:hover {
+    box-shadow: 3px 3px 10px whitesmoke;
+}
+
+.choose_service_block:focus {
+    background: linear-gradient(rgba(29, 112, 252, 0.5), rgba(29, 112, 252, 0.9));
+    color: lightgrey;
+}

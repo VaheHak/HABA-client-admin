@@ -1,0 +1,49 @@
+.country__create_label {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px !important;;
+}
+
+.country__create_input {
+    width: 100%;
+    padding: 12px 14px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-bottom: 3px;
+}
+
+.country__update_label {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.country__filter_area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+    padding: 0 3px;
+    margin-bottom: 30px;
+}
+
+.country__update_content {
+    width: 50%;
+}
+
+.update__latLon_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.coords__update_label {
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,110 @@
+.driver__create_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.driver__create_label {
+    display: block;
+    width: 33%;
+    height: 80px;
+    margin-bottom: 20px !important;
+}
+
+.select_year .MuiOutlinedInput-input {
+    padding: 10px 26px 11px 12px !important;
+}
+
+.select_year .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    line-height: 1 !important;
+    transform: translate(14px, 14px);
+}
+
+.car_color {
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.driver__update_label {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 25%;
+    height: 77px;
+    margin-bottom: 20px;
+}
+
+.driver__filter_label {
+    width: 100%;
+}
+
+.pbs {
+    display: flex;
+    overflow-x: visible;
+    padding: 12px 0;
+}
+
+.pbsRow {
+    display: flex;
+    overflow-x: auto;
+    padding: 12px 8px;
+    height: 150px;
+}
+
+.partnerRow {
+    min-width: 200px;
+    margin-right: 25px;
+}
+
+.partnerBranches {
+    width: 100%;
+    color: gray;
+    position: relative;
+}
+
+.pb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pb_inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.pb_inner a:hover {
+    text-decoration: underline;
+}
+
+.close_pbi {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.driver_search_input {
+    width: 55% !important;
+}
+
+.active_driver_button {
+    text-transform: unset !important;
+}
+
+.active_driver_button a {
+    color: #1d70fc;
+}

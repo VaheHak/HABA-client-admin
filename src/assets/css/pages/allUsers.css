@@ -1,0 +1,173 @@
+.users__content {
+    color: black;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+.users__title {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #212121;
+}
+
+.users__filter_area {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 3px;
+    margin-bottom: 30px;
+}
+
+.users__filter_row {
+    width: 100%;
+    padding: 20px;
+}
+
+.fLR {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__label_row {
+    width: 49%;
+}
+
+.filter__label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.filter_button {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.filter_button button {
+    width: 100%;
+}
+
+.user__create_content {
+    width: 100%;
+}
+
+.user__create_label {
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px !important;
+}
+
+.user__create_input {
+    width: 100%;
+}
+
+.add__user {
+    background-color: #212121 !important;
+    border-radius: 8px !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    text-transform: none !important;
+}
+
+.user__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.user__update_label {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 77px;
+    margin-bottom: 20px;
+}
+
+.user__update_input {
+    width: 100%;
+}
+
+.user__update_invitor {
+    display: flex;
+}
+
+.user__update_invitor p {
+    color: #3f51b5;
+}
+
+.user__update_ref {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user__deleted {
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    margin-right: 20%;
+}
+
+.create__date {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.update__buttons_row {
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update__referrals {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.update__referrals div {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.update__referrals span {
+    color: gray;
+}
+
+.ref_id {
+    color: #3f51b5;
+}
+
+.ref_id:hover {
+    cursor: pointer;
+    color: rgb(141, 200, 94);
+    text-decoration: underline;
+}
+
+.user__page_input {
+    padding: 8px 20px;
+    color: #3f51b5;
+    background: rgba(134, 144, 149, 0.1);
+    border: none;
+    font-weight: bold;
+}

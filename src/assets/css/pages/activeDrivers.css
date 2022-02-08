@@ -1,0 +1,83 @@
+.active_drivers_left {
+    width: 22%;
+    height: 100vh;
+    border-right: 1px solid gray;
+    padding: 8px;
+    overflow-y: auto;
+}
+
+.active_drivers_right {
+    width: 77%;
+    height: 100vh;
+    padding: 8px 0;
+}
+
+.active_drivers_list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.active_drivers_item {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active_drivers_item.sad {
+    color: #1d70fc;
+    text-shadow: 1px 1px 1px #cccccc;
+}
+
+.active_drivers_avatar {
+    position: relative;
+}
+
+.active_drivers_avatar .on {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.active_drivers_filter {
+    width: 90%;
+    height: 25px;
+    background: lightgrey;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.active_drivers_filter div {
+    width: 33%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.active_drivers_filter .middle {
+    border-right: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+}
+
+.active_drivers_filter .green {
+    background: #00ee00;
+    color: whitesmoke;
+}
+
+.active_drivers_filter .green:first-child {
+    border-radius: 15px 0 0 15px;
+}
+
+.active_drivers_filter .green:last-child {
+    border-radius: 0 15px 15px 0;
+}

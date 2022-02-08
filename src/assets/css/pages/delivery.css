@@ -1,0 +1,266 @@
+.users__content {
+    color: black;
+    padding: 100px 20px;
+    width: 100%;
+}
+
+.users__title {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #212121;
+}
+
+.users__filter_area {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 0 3px;
+    margin-bottom: 30px;
+}
+
+.users__filter_row {
+    width: 100%;
+    padding: 20px;
+}
+
+.fLR {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter__label_row {
+    width: 49%;
+}
+
+.filter__label_row2 {
+    width: 70%;
+}
+
+.filter__button2 {
+    width: 27%;
+}
+
+.filter__label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.filter_button {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.filter_button button {
+    width: 100%;
+}
+
+.user__create_content {
+    width: 100%;
+}
+
+.user__create_label {
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px !important;
+}
+
+.user__create_input {
+    width: 100%;
+}
+
+.add__user {
+    background-color: #212121 !important;
+    border-radius: 8px !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.user__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.user__update_label2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 77px;
+    margin-bottom: 20px;
+}
+
+.create__date {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+.delivery_right_section {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add__buttons_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update__buttons_row2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyForMe_section {
+    width: 90%;
+    padding: 20px;
+    background: linear-gradient(rgba(29, 112, 252, 0.9), rgba(29, 112, 252, 0.5));
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.buyForMe_title {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyForMe_section.update {
+    margin: 40px auto;
+}
+
+.user__page_input {
+    padding: 8px 20px;
+    color: #3f51b5;
+    background: rgba(134, 144, 149, 0.1);
+    border: none;
+    font-weight: bold;
+}
+
+.delivery_date_input {
+    width: 100%;
+    padding: 10px 12px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}
+
+.branches__form_content {
+    width: 100%;
+    height: 90%;
+}
+
+.branches_content {
+    width: 85%;
+    height: 90%;
+    margin: 10px auto;
+    overflow-y: auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.branches_content::-webkit-scrollbar {
+    width: 7px;
+}
+
+.branch_item {
+    border-radius: 5px;
+    margin-bottom: 8px;
+    background: #000;
+}
+
+.branch_item a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke !important;
+}
+
+.delivery_add_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-weight: bold;
+    padding: 0 3px;
+    margin-bottom: 30px;
+}
+
+.delivery_add_content {
+    width: 50%;
+}
+
+.delivery_add_label {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px !important;
+}
+
+.delivery_location {
+    width: 100%;
+    height: 42px;
+    background: white;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery_location_left {
+    width: 15%;
+    cursor: pointer;
+}
+
+.delivery_location_left .delivery_location {
+    border-radius: 5px 0 0 5px;
+}
+
+.delivery_location_middle {
+    width: 70%;
+}
+
+.delivery_location_right {
+    width: 15%;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.update__latLon_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.coords__update_label {
+    display: block;
+    margin-bottom: 20px;
+}

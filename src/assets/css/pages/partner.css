@@ -1,0 +1,50 @@
+#partner_avatar {
+    width: 55px;
+    height: 55px;
+    box-shadow: 1px 1px 3px #000;
+    cursor: pointer;
+}
+
+.image_zoom {
+    width: 0;
+    height: 0;
+    transition: all 0.3s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    overflow: hidden;
+    opacity: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #000;
+    background: ghostwhite;
+}
+
+.partner_avatar:hover > .image_zoom {
+    overflow: visible;
+    opacity: 1;
+    width: 35%;
+    height: auto;
+}
+
+.add__partner_branch {
+    width: 50vw;
+    overflow-x: auto;
+    padding: 25px 0;
+}
+
+.partner_info_block {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}

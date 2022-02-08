@@ -1,0 +1,121 @@
+.login__container {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important
+}
+
+.login__content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__logo {
+    height: 68px;
+    width: 283px;
+    object-fit: cover;
+}
+
+.login__form {
+    height: 70%;
+    width: 30%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background: #FFFFFF;
+}
+
+.login__form h3 {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #252525;
+}
+
+.login__form_content {
+    width: 100%;
+}
+
+.login__label_row {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.login__label {
+    width: 100%;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #252525;
+}
+
+.input__error {
+    color: #E71010;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.login__form a {
+    color: #fff !important
+}
+
+.login__input {
+    width: 100%;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.login__form .form__submit {
+    width: 100%;
+    height: 60px;
+    background: #212121;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.login__form .form__submit:hover {
+    box-shadow: 1px 1px 3px black;
+    transition: all 0.3s;
+}
+
+.back__to_login {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
